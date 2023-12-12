@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp.flavorlocator.azurewebsites.net
+          path: ${{env.DOTNET_ROOT}}/myapp.
 
   deploy:
     runs-on: ubuntu-latest
